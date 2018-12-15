@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <group android:checkableBehavior="single">
+
+
+
+        <item
+            android:id="@+id/nav_first_layout"
+            android:icon="@drawable/ticketicon"
+            android:title="Book Ticket" />
+        <item
+            android:id="@+id/nav_second_layout"
+            android:title="Booking History"
+            android:icon="@drawable/historyicon"
+            />
+        <item
+            android:id="@+id/nav_maps_layout"
+            android:title="Location Tracking"
+            android:icon="@drawable/gpsicon"
+            />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Log out"
+            android:icon="@drawable/logouticon"
+            />
+
+    </group>
+
+
+
+
+
+
+</menu>
